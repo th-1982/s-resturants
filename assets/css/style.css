@@ -14,16 +14,18 @@ body {
 
 }
 
-h1 {
+h1, h2 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
-    color: #252525;
+    
 }
+
+
 
 /* Navigation links */
 
 .navbar {
-    background-color: #513E15;
+    background-color: #5D4E33;
 }
 
 .navbar-brand {
@@ -61,8 +63,8 @@ h1 {
     padding: 5rem;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
-    background-color: rgba(250, 231, 201, .9);
-    color: #252525;
+    background-color: rgba(0, 128, 128, .9);
+    color: #fff;
     justify-content: center;
     position: absolute; 
     font-size: 30px;
@@ -78,17 +80,17 @@ h1 {
     padding: .6rem .5rem;
     border: 1px solid #fff;
     border-radius: 1rem;
-    color:#fff;
+    color: #fff;
     font-size: 1rem;
     font-weight: 300;
-    background-color: rgb(43, 61, 65);
+    background-color: rgb(93, 78, 51);
     transition: all.8s ease;
 }
 
 .hero-btn:hover{
     transform: translateY(-5px);
-    background-color: #fff;
-    color: #000000 !important
+    background-color: white;
+    color: rgb(93, 78, 51) !important
 }
 
 .arrows{
@@ -117,3 +119,81 @@ a{
     width:100px;
 }
 
+/* about us section */
+
+#about-us {
+    background: url("../images/about-bg1.png") center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #c8d6b9;
+} 
+
+.fa-solid {
+    color: #B0926A;
+    font-size: 35px;
+}
+
+#about-text {
+   margin-bottom: 5px;
+   font-size: larger;
+
+}
+
+.about-p {
+    font-size: 18px;
+}
+
+.about-heading {
+    text-decoration: underline;
+}
+
+/* Special dishes section */
+
+.special-dishes {
+    background: url("../images/about-bg1.png") center;
+    background-size: cover;
+    padding: 48px;
+    color: #c8d6b9;
+    text-align: center;   
+}
+
+.card-text {
+    font-size: large;
+}
+
+
+
+/* review section */
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    background: url("../images/about-bg1.png") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
+
+}
+
+.rev-title{
+    text-align: center;
+    letter-spacing: 12
+}
+.rev-card{
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 4px 4px 5px rgba(255,255,255,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.fa-star {
+    color: #ffd700;
+    font-size: large;
+}
