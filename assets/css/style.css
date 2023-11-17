@@ -16,8 +16,13 @@ body {
 
 h1, h2 {
     font-family: montserrat, sans-serif;
-    font-weight: 700;
-    
+    font-weight: 700;   
+}
+
+h3 {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 
@@ -173,6 +178,7 @@ a{
     background: url("../images/about-bg1.png") center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #fff;
 
 
@@ -196,4 +202,33 @@ a{
 .fa-star {
     color: #ffd700;
     font-size: large;
+}
+
+/* Footer section */
+
+.footers{
+    margin-top: 35px;
+    background-color: #5D4E33;
+    max-width: 100%;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links i{
+    padding: 7px 9px;
+    transition: all 0.2s ease;
+    color: #fff;
+}
+.social-links i:hover{
+    cursor: pointer;
+   margin-top:5px;
+    color: #3498db
+}
+
+.footer-text p {
+    font-size: 40px;
+    font-weight: 600;
 }
