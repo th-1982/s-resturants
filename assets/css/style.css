@@ -10,13 +10,13 @@
 body {
     font-family: Open Sans, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
-
+    color: #3a3a3a; 
 }
 
 h1, h2 {
     font-family: montserrat, sans-serif;
-    font-weight: 700;   
+    font-weight: 700;
+      
 }
 
 h3 {
@@ -102,6 +102,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
     /* gap:.5rem; */
 }
 
@@ -117,6 +118,8 @@ a{
     animation-delay: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    background-color: #fff;
+    
 }
 
 .card-body>img{
@@ -135,7 +138,7 @@ a{
 } 
 
 .fa-solid {
-    color: #B0926A;
+    color: #000;
     font-size: 35px;
 }
 
@@ -165,6 +168,22 @@ a{
 
 .card-text {
     font-size: large;
+}
+
+/* bottom to top arrow */
+.bottom-to-top {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    
+    
+}
+
+.bottom-to-top:hover {
+    background-color: #3498db;
 }
 
 
@@ -204,6 +223,8 @@ a{
     font-size: large;
 }
 
+
+
 /* Footer section */
 
 .footers{
@@ -232,3 +253,33 @@ a{
     font-size: 40px;
     font-weight: 600;
 }
+
+
+/* Menu item section */
+.wrapper{
+    background: url("../images/about-bg1.png");
+    background-attachment: fixed;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes arrows {
+    10%{
+        opacity: .8;
+    }
+    30%{
+        opacity: .6;
+    }
+    50%{
+        opacity: .4;
+    }
+    80%{
+        opacity: .2;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
+
