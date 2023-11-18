@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">   
           <img src="./assets/images/weber-restaurant-logo.jpg"  width="70" height="70" alt="Logo" class="d-inline-block align-text-top"/>
-          <a class="navbar-brand px-2 display-1" href="#">
+          <a class="navbar-brand px-2 display-1" href="/">
             Weber Restaurant
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,137 +33,140 @@
           <div class="collapse navbar-collapse d-flex justify-content-sm-start justify-content-lg-end " id="navbarNavDropdown">
             <ul class="navbar-nav"> 
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/menu/">Menu</a>
+                <a class="nav-link" href="/menu.html">Menu</a>
               </li>
              
               <li class="nav-item">
-                <a class="nav-link" href="/booking/">Reservation</a>
+                <a class="nav-link" href="/booking.html">Reservation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="/contact/" aria-disabled="true">Contact</a>
+                <a class="nav-link " href="/contact.html" aria-disabled="true">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="account/register/" aria-disabled="true">Register</a>
+                <a class="nav-link " href="/register.html" aria-disabled="true">Register</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="account/login/" aria-disabled="true">Login</a>
+                <a class="nav-link " href="/login.html" aria-disabled="true">Login</a>
               </li>
              
             </ul>
           </div>
         </div>
       </nav>
+
       <!-- Menu item container -->
 
       <div class="wrapper">
-        <h1 class="text-center mt-3 mb-5">Menu</h1>
+        <h1 class="text-center mt-3 mb-5">Menu
+          <i class="fa-solid fa-utensils menu-icon"></i>
+        </h1>
         <div class="row">
   
           <div class="d-flex flex-column justify-content-center align-items-center gap-5 mt-4">
             <!-- flex -->
-            <div class="food d-flex flex-sm-column gap-5">
+            <div class="menu d-flex flex-sm-column gap-5 text-center">
               <div class="img-holder">
                 <img class=" img-fluid" height="200px"
                 width="250px"
-                 src="./assets/images/weber-special1.jpg" alt="meat Roulade" class="img-fluid">
+                 src="./assets/images/weber-special1.jpg" alt="Meat with Noodle" class="img-fluid">
               </div>
               <div class="text">
-                <p>Roulade<span class="mx-3 fs-4">38.00€</span></p>
-                <p><b>Ingredieints: </b> <i>Meat, Noodle, Sauerkraut and Sauce.</i>f</p>
+                <p>Roulade<span class="mx-3 fs-4">20.00€</span></p>
+                <p><b>Ingredieints: </b> <i>Meat, Noodle, Sauerkraut and Sauce.</i></p>
                 <p>...................................................................</p>
               </div>
   
             </div>
-            <div class="food d-flex flex-sm-column gap-5">
+            <div class="menu d-flex flex-sm-column gap-5 text-center">
               <div class="img-holder">
                 <img class=" img-fluid" height="200px"
                 width="250px"
-                 src="./assets/images/weber-hero1.jpg" alt="Egg noodle with meat" class="img-fluid">
+                 src="./assets/images/weber-hero1.jpg" alt="Meat with Egg noodle" class="img-fluid">
               </div>
               <div class="text">
-                <p>Egg noodles with Meat <span class="mx-3 fs-4">30.00€</span></p>
-                <p><b>Ingredients: </b> <i>Egg Noodle, Roasted Meat and Sauce </i>f</p>
+                <p> Meat with Egg Noodles <span class="mx-3 fs-4">17.00€</span></p>
+                <p><b>Ingredients: </b> <i>Egg Noodle, Roasted Meat Sauce and Rosemary </i></p>
                 <p>...................................................................</p>
               </div>
   
             </div>
-            <div class="food d-flex flex-sm-column gap-5">
+            <div class="menu d-flex flex-sm-column gap-5 text-center">
               <div class="img-holder">
                 <img class=" img-fluid" height="200px"
                 width="250px"
                  src="./assets/images/weber-hero3.jpg" alt="Meat with Potato salad" class="img-fluid">
               </div>
               <div class="text">
-                <p>Meat with Potato salad  <span class="mx-3 fs-4">25.00€</span></p>
-                <p><b>Ingredients: </b> <i>Breaded and fried meat, Potato Salad, tomatoes, pepper, eggs, Cucumber and lemon </i>f</p>
+                <p>schnitzel <span class="mx-3 fs-4">19.00€</span></p>
+                <p><b>Ingredients: </b> <i>Meat, Potato Salad, tomatoes, pepper, eggs, Cucumber, Lemon, and Parsley.</i></p>
                 <p>...................................................................</p>
               </div>
   
             </div>
-            <div class="food d-flex flex-sm-column gap-5">
+            <div class="menu d-flex flex-sm-column gap-5 text-center">
               <div class="img-holder">
                 <img class=" img-fluid" height="200px"
                 width="250px"
                  src="./assets/images/weber-special2.jpg" alt="Meat with potato salad" class="img-fluid">
               </div>
               <div class="text">
-                <p>Meat with potatoe salad <span class="mx-3 fs-4">28.00€</span></p>
-                <p><b>Ingredients: </b> <i>Meat, potatoe salad, Vegetable salad, lemon, tomatoes</i>f</p>
+                <p>schnitzel<span class="mx-3 fs-4">18.00€</span></p>
+                <p><b>Ingredients: </b> <i>Meat, potato salad, Vegetable salad, lemon, tomatoes, and Lingonberries and Chives</i></p>
                 <p>...................................................................</p>
               </div>
   
             </div>
-            <div class="food d-flex flex-sm-column gap-5">
+            <div class="menu d-flex flex-sm-column gap-5 text-center">
               <div class="img-holder">
                 <img class=" img-fluid" height="200px"
                 width="250px"
-                 src="./assets/images/weber-special3.jpg" alt="Potato Dumplings" class="img-fluid">
+                 src="./assets/images/weber-special3.jpg" alt="Roasted Meat with Potato Dumplings" class="img-fluid">
               </div>
               <div class="text">
-                <p>Potato Dumplings <span class="mx-3 fs-4">36.00€</span></p>
-                <p><b>Ingredients: </b> <i>Potato Dumplings, Roasted meats and Sauce</i>f</p>
+                <p>Potato Dumplings <span class="mx-3 fs-4">20.00€</span></p>
+                <p><b>Ingredients: </b> <i>Potato Dumplings, Roasted meats, Sauce and Rosemary.</i></p>
                 <p>...................................................................</p>
               </div>
   
             </div>
-            <div class="food d-flex flex-sm-column gap-5">
+            <div class="menu d-flex flex-sm-column gap-5 text-center">
               <div class="img-holder">
                 <img class=" img-fluid" height="200px"
                 width="250px"
                  src="./assets/images/weber-menu1.jpg" alt="German beef Stew" class="img-fluid">
               </div>
               <div class="text">
-                <p> Gulasch <span class="mx-3 fs-4">32.00€</span></p>
-                <p><b>Ingredients: </b> <i>Beef Stew, Meat, Potato dumplings, salad, tomatoes</i>f</p>
+                <p> Gulasch <span class="mx-3 fs-4">18.00€</span></p>
+                <p><b>Ingredients: </b> <i>Beef Stew, Meat, Potato dumplings, salad, tomatoes.</i></p>
                 <p>...................................................................</p>
               </div>
   
             </div>
-            <div class="food d-flex flex-sm-column gap-5">
+            <div class="menu d-flex flex-sm-column gap-5 text-center">
               <div class="img-holder">
                 <img class=" img-fluid" height="200px"
                 width="250px"
                  src="./assets/images/weber-menu2.jpg" alt="Meat with french fries" class="img-fluid">
               </div>
               <div class="text">
-                <p>Meat with French fries <span class="mx-3 fs-4">25.00€</span></p>
-                <p><b>Ingredients: </b> <i>Breaded and fried meat, French fries, Ketchup, Lemon and salad. </i>f</p>
+                <p>schnitzel<span class="mx-3 fs-4">15.00€</span></p>
+                <p><b>Ingredients: </b> <i>Meat, French fries, Ketchup, Lemon, and Salad.</i></p>
                 <p>...................................................................</p>
               </div>
   
             </div>
-            <div class="food d-flex flex-sm-column gap-5">
+            <div class="menu d-flex flex-sm-column gap-5 text-center">
               <div class="img-holder">
                 <img class=" img-fluid" height="200px"
                 width="250px"
-                 src="./assets/images/weber-menu3.jpg" alt="Potato with roasted meat" class="img-fluid">
+                 src="./assets/images/weber-menu3.jpg" alt="Roasted Meat with Potato " class="img-fluid">
               </div>
               <div class="text">
-                <p>Potato with roasted meat <span class="mx-3 fs-4">30.00€</span></p>
-                <p><b>Ingredients: </b> <i>Roasted meat, Potato, Cabbage and Spinach</i>f</p>
+                <p>Roasted Meat with Potato  <span class="mx-3 fs-4">20.00€</span></p>
+                <p><b>Ingredients: </b> <i>Roasted meat, Potato, Pumpkin and Vegetable.</i></p>
                 <p>...................................................................</p>
               </div>
   
@@ -172,31 +175,34 @@
         </div>
 
         <!--Footer-->
-        <footer class="footers">
-            <p class="footer-text">Follow us:</p>
-      
-            <div class="social-links">
-                <a href="https://facebook.com" target="_blank" rel="noopeener" aria-label="Visit our Facebook page (opens in a new tab)">
-                  <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="https://youtube.com" target="_blank" rel="noopeener" aria-label="Visit our youtube page (opens in a new tab)">
-                  <i class="fa-brands fa-youtube"></i>
-                </a>
-                <a href="https://instagram.com" target="_blank" rel="noopeener" aria-label="Visit our Instagram page (opens in a new tab)">
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://twitter.com" target="_blank" rel="noopeener" aria-label="Visit our Twitter page (opens in a new tab)">
-                  <i class="fa-brands fa-twitter"></i>
-                </a>
-            </div>
-            <p> &copy; <span id="date"></span> Weber Restaurant </p>
-            
-          </footer>
+        <footer class="footers" id="footer">
+          <p class="footer-text">Follow us:</p>
+    
+          <div class="social-links">
+              <a href="https://facebook.com" target="_blank" rel="noopeener" aria-label="Visit our Facebook page (opens in a new tab)">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopeener" aria-label="Visit our youtube page (opens in a new tab)">
+                <i class="fa-brands fa-square-youtube"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopeener" aria-label="Visit our Instagram page (opens in a new tab)">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopeener" aria-label="Visit our Twitter page (opens in a new tab)">
+                <i class="fa-brands fa-square-twitter"></i>
+              </a>
+          </div>
+          <p> &copy; <span id="date"></span> Weber Restaurant </p>
+
+          
+        </footer>
+       
       <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
     </body>
+    <script src="./assets/js/script.js"></script>
   </html>
   
