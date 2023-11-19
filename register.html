@@ -57,23 +57,36 @@
       </div>
     </nav>
 
-      <div class="container w-100 card card-body mt-5">
-        <h2 class="text-center">Sign Up</h2>
-        <form class="form">
+      <div class="container w-50 card card-body mt-5" style="background-color: #CCC9A1" id="signin">
+        <h2 class="text-center">Sign Up <i class="fa-solid fa-right-to-bracket"></i></h2>
+        <p id="signin-p">
+          Welcome to Weber Resturant. Do you already have an account? Then please <a class="authenticate-link" href="/login.html"><b>SIGN IN.</b></a>
+        </p>
+        <form class="form" id="signup-form" method="post" action="/register.html">
             <div class="form-input">
-                <label class="form-label">Email</label>
-                <input type="text" class="form-control" placeholder="Enter your Email">
+                <label class="form-label" for="id_email">E-mail:</label>
+                <input type="email" name="email" class="form-control" placeholder="Email-address" autocomplete="email" required="" id="id_email">
             </div>
             <div class="form-input mt-2">
-                <label class="form-label">Username</label>
-                <input type="text" class="form-control" placeholder="Enter your Username">
+                <label class="form-label" for="id_first_name">First Name:</label>
+                <input type="text" class="form-control" name="first_name" placeholder="First name" maxlength="40" required=""
+                id="id_first_name">
             </div>
-            <div class="form-input mt-2">
-                <label class="form-label">Password</label>
-                <input type="password" class="form-control" placeholder="Enter your Password">
+            <div class="form-input mt-2" >
+              <label class="form-label" for="id_last_name">Last Name:</label>
+              <input type="text" name="last_name" class="form-control" placeholder="Last name" maxlength="40" required="" id="id_last_name">
+          </div>
+            <div class="form-input mt-2" >
+                <label class="form-label" for="id_password1">Password:</label>
+                <input type="password" name="password1" class="form-control" placeholder="Password" autocomplete="new-password" required="" id="id_password1">
             </div>
-            <div class="btn btn-success mt-3">Sign up</div><br>
-            <a href="login.html">Already have an account</a>
+            <div class="form-input mt-2" >
+              <label class="form-label" for="id_password2">Password (again):</label>
+              <input type="password" name="password2" class="form-control" placeholder="Password (again)" autocomplete="new-password" required="" id="id_password2">
+          </div>
+         
+           
+            <button class="btn btn-success mt-3 w-20" type="submit">Sign Up »</button>
         </form>
     </div>
 
@@ -97,10 +110,6 @@
           </a>
       </div>
       <p> &copy; <span id="date"></span> Weber Restaurant </p>
-
-      <a href="#top" class="bottom-to-top" onclick="scrollToTop">
-        <i class="fa-solid fa-circle-arrow-up"></i>
-      </a>
       
     </footer>
 <script
