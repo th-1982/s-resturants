@@ -312,20 +312,40 @@ h1 {
 
 /* Sign in section */
 
+#signin {
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#signin-p {
+    font-size: 18px;
+}
 label {
     font-size: 20px;
     display: inline-block;
 }
 
-
-     
-    
-
-
-a .authenticate-link {
-    color: blue;
-    letter-spacing: 3px;
+.btn {
+    background-color: #5D4E33;
+    border-color: #fff;
+    transition: all.8s ease;
 }
+
+.btn:hover {
+    transform: translateY(-5px);
+    background-color: white;
+    color: rgb(93, 78, 51)
+}
+
+/* Contact section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
 
 @keyframes arrows {
     10%{
