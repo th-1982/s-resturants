@@ -56,35 +56,39 @@
         </div>
       </div>
     </nav>
-      <div class="container w-50 card card-body mt-5">
-        <h1 class="text-center">Sign In</h1>
-        <p class="text-center py-3">Dear customer, in order to make a booking, leave a review or add meals to favourite, please login.
 
-        </p>
-        <p class="form">
-            <div class="form-input">
-                <label class="form-label">Email</label>
-                <input type="text" class="form-control" placeholder="Enter your Email">
-            </div>
-            
-            <div class="form-input mt-2">
-                <label class="form-label">Password</label>
-                <input type="password" class="form-control" placeholder="Enter your Password">
-            </div>
+    <!--Sign in section-->
 
-            <div class="form-check mt-3">
-                 <label class="form-check-label" for="flexCheckDefault">
-                  Remember Me
-                </label>
-                <input class="form-check-" type="checkbox" value="" id="flexCheckDefault">
-               
-              </div>
-            <p>If you have not created an account yet, then please<a href="register.html"> SIGN UP first.</a></p>
-                    <div class="btn btn-success mt-3 w-25">SignIn</div><br></form>
+    <div class="container w-50 card card-body mt-5" style="background-color: #CCC9A1">
+      <h1 class="text-center">Sign In</h1>
+      <p class="text-center py-3">Welcome to Weber Restaurant. Dear Customer, to make a booking or add meals to your favorite, please login.</p>
+      <form class="login" method="POST" action="/login.html">
+        <div class="form-input">
+          <label class="form-label" for="id_login">E-mail:</label>
+          <input type="email" name="login" class="form-control" placeholder="E-mail address" autocomplete="email" required="" id="id_login">
+        </div>
+        
+        <div class="form-input mt-2">
+          <label class="form-label" for="id_password">Password:</label>
+          <input type="password" name="password" class="form-control" placeholder="Password" autocomplete="current-password" required="" id="id_password">
+        </div>
+    
+        <div class="form-check mt-3" custom-checkbox>
+          <label class="form-check-label" for="id_remember">
+            Remember Me:
+          </label>
+          <input class="form-check-" type="checkbox" name="remember" value="" id="id_remember">
+        </div>
+        
+        <input type="hidden" name="next" value="/booking.html">
+    
+        <p>If you have not created an account yet, then please <a href="register.html">SIGN UP first.</a></p>
+    
+        <button class="btn btn-success mt-3 w-20" type="submit">Sign In</button>
+      </form>
     </div>
-
-
-
+     
+    
     <!--Footer-->
     <footer class="footers" id="footer">
       <p class="footer-text">Follow us:</p>
@@ -105,9 +109,6 @@
       </div>
       <p> &copy; <span id="date"></span> Weber Restaurant </p>
 
-      <a href="#top" class="bottom-to-top" onclick="scrollToTop">
-        <i class="fa-solid fa-circle-arrow-up"></i>
-      </a>
       
     </footer>    
 
