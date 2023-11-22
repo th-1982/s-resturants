@@ -95,13 +95,18 @@ h3 {
     font-size: 1rem;
     font-weight: 300;
     background-color: rgb(93, 78, 51);
-    transition: all.8s ease;
+    transition: all 0.8s ease;
 }
 
 .hero-btn:hover{
     transform: translateY(-5px);
-    background-color: #fff;
-    color: rgb(93, 78, 51) !important
+    background-color: #333;
+    color: #fff;
+}
+
+.hero-btn {
+    text-decoration: none ;
+   
 }
 
 .arrows{
@@ -354,6 +359,14 @@ label {
     background-color: #f8f9fa;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.days {
+    font-size: 18px;
+}
+
+.times {
+    font-size: 16px;
 }
 
 
