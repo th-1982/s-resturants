@@ -5,6 +5,7 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
+  
 }
 
 body {
@@ -99,7 +100,7 @@ h3 {
 
 .hero-btn:hover{
     transform: translateY(-5px);
-    background-color: white;
+    background-color: #fff;
     color: rgb(93, 78, 51) !important
 }
 
@@ -208,6 +209,7 @@ a{
     background-attachment: fixed;*/
     background-color: #CCC9A1;
     color: #fff;
+    padding-top: 5px;
 }
 
 
@@ -252,15 +254,16 @@ a{
     color: #fff;
     font-size: 25px;
 }
-.social-links i:hover{
+
+.social-links i:hover {
     cursor: pointer;
-   margin-top:5px;
-    color: #3498db
+    margin-top: 5px;
+    color: #3498db;
 }
 
 .footer-text p {
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 20px;
+    
 }
 
 
@@ -302,6 +305,8 @@ h2 {
 
 #menu-item {
     color: #fff;
+    
+
     
 }
 
