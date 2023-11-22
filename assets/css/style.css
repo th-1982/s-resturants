@@ -179,6 +179,14 @@ a{
     font-size: large;
 }
 
+.card-img-top {
+    transition: all 1s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
 /* bottom to top arrow */
 .bottom-to-top {
     position: fixed;
@@ -187,8 +195,7 @@ a{
     background-color: #fff;
     padding: 10px;
     border-radius: 50%;
-    
-    
+        
 }
 
 .bottom-to-top:hover {
@@ -234,7 +241,6 @@ a{
 }
 
 
-
 /* Footer section */
 
 .footers{
@@ -263,6 +269,7 @@ a{
 
 .footer-text p {
     font-size: 20px;
+    font-weight: 600;
     
 }
 
