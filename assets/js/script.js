@@ -5,9 +5,3 @@ console.log(d.getFullYear());
 date.innerHTML=year
 
 
-function scrollToTop() {
-    Window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
