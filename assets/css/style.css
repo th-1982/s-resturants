@@ -282,7 +282,10 @@ a{
     font-size: 18px;
     font-weight: 600;
 }
-    
+  
+.text-font {
+    font-size: 17px;
+}
   
 
 
