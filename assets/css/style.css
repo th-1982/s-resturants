@@ -45,6 +45,7 @@ h3 {
     text-transform: uppercase;
 }
 
+
 .nav-link {
     font-size: 24px;
     font-weight: 500;
@@ -390,7 +391,7 @@ input[type=checkbox] {
     color: white;
 }
 
-h4 {
+h3 {
     color: #252525;
 }
 
@@ -418,7 +419,7 @@ h4 {
     font-size: 18px;
 }
 
-h5 {
+h4 {
     font-size: 20px;
 }
 
