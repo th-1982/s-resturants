@@ -4,8 +4,11 @@
 
 * {
     box-sizing: border-box;
+    text-decoration: none; 
+}
+
+a {
     text-decoration: none;
-  
 }
 
 body {
@@ -100,14 +103,10 @@ h3 {
 
 .hero-btn:hover{
     transform: translateY(-5px);
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: rgb(93, 78, 51) !important;
 }
 
-.hero-btn {
-    text-decoration: none ;
-   
-}
 
 .arrows{
     display: flex;
@@ -239,6 +238,19 @@ a{
     color: #fff;
 }
 
+/* bottom to top arrow */
+.bottom-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.bottom-to-top:hover {
+    background-color: #3498db;
+}
 
 /* Footer section */
 
@@ -355,7 +367,7 @@ input[type=checkbox] {
 .btn:hover {
     transform: translateY(-5px);
     background-color: white;
-    color: rgb(93, 78, 51)
+    color: black !important;
 }
 
 
