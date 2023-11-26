@@ -376,16 +376,18 @@ input[type=checkbox] {
     padding: 20px;
 }
 
-.contact-h1 {
+.contact-h2 {
     color: #fff;
-    font-size: 40px;
    
 }
 
-.contact-h1 i {
+.contact-h2 i {
     color: white;
 }
 
+h4 {
+    color: #252525;
+}
 
 .days {
     font-size: 20px;
@@ -409,10 +411,10 @@ input[type=checkbox] {
 
 .contact-us {
     font-size: 18px;
-    color: #fff;
+   
 }
 
-h3 {
+h5 {
     font-size: 20px;
 }
 
