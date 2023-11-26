@@ -7,9 +7,6 @@
     text-decoration: none; 
 }
 
-a {
-    text-decoration: none;
-}
 
 body {
     font-family: Lato, sans-serif;
@@ -20,8 +17,7 @@ body {
 h1, h2 {
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    color: #252525;
-      
+    color: #252525;     
 }
 
 h3 {
@@ -104,8 +100,12 @@ h3 {
 
 .hero-btn:hover{
     transform: translateY(-5px);
-    background-color: #fff;
-    color: rgb(93, 78, 51) !important;
+    background-color: #333;
+    color: #fff;
+}
+
+.hero-btn {
+    text-decoration: none;
 }
 
 
@@ -225,35 +225,24 @@ a{
     color: #fff;
 }
 
-.rev-name {
-    color: #fff;
-}
 
 .fa-star {
     color: #ffd700;
     font-size: large;
 }
 
+/* bottom to top arrow */
 .top {
     position: fixed;
     bottom: 15px;
     right: 10px;
-    background-color: #5D4E33;
-    padding: 3px;
-    color: #fff;
-}
-
-/* bottom to top arrow */
-.bottom-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
     background-color: #fff;
-    padding: 10px;
-    border-radius: 50%;
+    padding: 3px;
+    color: #5D4E33;
 }
 
-.bottom-to-top:hover {
+
+.top:hover {
     background-color: #3498db;
 }
 
@@ -354,6 +343,7 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #3a3a3a;
 }
+
 #signin-p {
     font-size: 18px;
 }
@@ -375,7 +365,7 @@ input[type=checkbox] {
 .btn:hover {
     transform: translateY(-5px);
     background-color: white;
-    color: black !important;
+    color: rgb(93, 78, 51);
 }
 
 
@@ -395,7 +385,7 @@ input[type=checkbox] {
     color: white;
 }
 
-h3 {
+h4 {
     color: #252525;
 }
 
@@ -423,7 +413,7 @@ h3 {
     font-size: 18px;
 }
 
-h4 {
+h5 {
     font-size: 20px;
 }
 
